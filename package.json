@@ -1,0 +1,20 @@
+{
+  "name": "collectorisshit",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun build --compile --minify --sourcemap . --outfile build/osu_collector"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "osu-buffer": "^2.0.2",
+    "osu-db-parser": "^2.0.1",
+    "toml": "^3.0.0"
+  }
+}
