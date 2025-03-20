@@ -1,3 +1,17 @@
 # osu-collector-cli
 
-osu!collector but without a pay-wall.
+[osu!collector](https://osucollector.com) but without a paywall.
+
+## How to use it?
+
+1. [Download](https://github.com/shockpast/osu-collector-cli/releases/latest) the latest release
+2. Depending on your operating system, unpack `windows.zip` or `linux.zip`
+3. Follow instructions inside `config.example.toml` and fill in required fields
+4. Rename `config.example.toml` to `config.toml` and run executable file, `config.toml` should be in the same folder as executable!
+
+## Why?
+I don't like that Desktop App is behind paywall (2$/month). I want to support their work, but I also want to download collections fast and without any troubles, this is why [osu-collector-cli](https://github.com/shockpast/osu-collector-cli) exists in first place.
+
+## Special Thanks
+- [FunOrange](https://github.com/FunOrange) for creating [osu!collector](https://osucollector.com), but 2$/month for bulk downloading maps, is just... no, sorry.
+- [mahloola](https://x.com/mahloola)
