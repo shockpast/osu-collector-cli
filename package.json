@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build:linux": "bun build --compile --target=bun-linux-x64 --minify --sourcemap . --outfile build/osu_collector_linux",
-    "build:windows": "bun build --compile --target=bun-windows-x64 --minify --sourcemap . --outfile build/osu_collector_win"
+    "build:windows": "bun build --compile --target=bun-windows-x64 --minify --sourcemap . --outfile build/osu_collector_windows"
   },
   "devDependencies": {
     "@types/bun": "latest"
