@@ -47,12 +47,3 @@ jobs:
         with:
           name: windows
           path: artifacts/windows.zip
-
-      - name: Release
-        uses: softprops/action-gh-release@v2
-        with:
-          prerelease: true
-          tag_name: automated-release
-          files: |
-            artifacts/windows.zip
-            artifacts/linux.zip
