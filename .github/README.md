@@ -2,6 +2,11 @@
 
 [osu!collector](https://osucollector.com) but without a paywall.
 
+## Features
+
+- Downloads all beatmapsets from specified `collection_id` and saves them in specified songs path.
+- Creates collection for collection that is being downloaded, and automatically adds downloaded maps to it.\
+
 ## How to use it?
 
 1. [Download](https://github.com/shockpast/osu-collector-cli/releases/latest) the latest release
