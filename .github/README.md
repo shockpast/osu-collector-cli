@@ -1,3 +1,6 @@
+# DEPRECATED
+I'm dropping maintain of this project in favour of [ecstasy](https://github.com/shockpast/ecstasy)
+
 # osu-collector-cli
 
 [osu!collector](https://osucollector.com) but without a paywall.
